@@ -1,0 +1,61 @@
+{
+  "_from": "@joefong92/sloth-img",
+  "_id": "@joefong92/sloth-img@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-dslnXoCpaKQzIRp6urmO+g1RZmYGN65L4uA5loBO3lwKngxhcsWbJPOBHzhtoClKhlHCnYq1CCdC411cfno8jg==",
+  "_location": "/@joefong92/sloth-img",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@joefong92/sloth-img",
+    "name": "@joefong92/sloth-img",
+    "escapedName": "@joefong92%2fsloth-img",
+    "scope": "@joefong92",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@joefong92/sloth-img/-/sloth-img-1.0.0.tgz",
+  "_shasum": "aa367e912fd22a0d86d6c1c46f2efc89b61c3d1a",
+  "_spec": "@joefong92/sloth-img",
+  "_where": "/var/www/test",
+  "author": {
+    "name": "Joe Fong"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "stackblur-canvas": "^2.2.0",
+    "style-loader": "^1.1.3"
+  },
+  "deprecated": false,
+  "description": "A react component to progressively load images",
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^3.4.2",
+    "file-loader": "^5.0.2",
+    "react-hot-loader": "^4.12.19",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  },
+  "license": "MIT",
+  "main": "dist/app.js",
+  "name": "@joefong92/sloth-img",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --hot --inline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
